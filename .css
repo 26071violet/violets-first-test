@@ -1,0 +1,36 @@
+* {
+    color: #3c295d;
+    background-image: url('r.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    ;
+}
+
+div {
+    width: 200px;
+    height: 55px;
+    margin: 0 auto;
+    font-size: larger;
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #7e57c2, #0d3b62);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+}
+
+.content {
+    width: auto;
+    height: 220px;
+    margin: 10px;
+}
+
+.part {
+    width: 140px;
+    float: left;
+    margin: 50px;
+}
+
+*:hover {
+    color: #0d0814;
+}
