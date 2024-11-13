@@ -1,0 +1,196 @@
+        body {
+            margin: auto;
+        }
+        
+        .topbar-nav {
+            float: left;
+            height: 40px;
+            line-height: 40px;
+            background-color: black;
+            width: 2200px;
+        }
+        
+        .topbar-nav a {
+            color: darkgrey;
+            text-decoration: none;
+        }
+        
+        .topbar-nav a:hover {
+            color: white;
+            text-decoration: solid;
+        }
+        
+        .sep {
+            height: 40px;
+            margin-right: 19px;
+            margin-left: 19px;
+            color: black;
+        }
+        
+        .site-header {
+            width: 100%;
+            height: 100px;
+        }
+        
+        .site-header .header-logo {
+            float: left;
+            width: 80px;
+            height: 100px;
+        }
+        
+        .site-header .header-nav {
+            float: left;
+            width: 1000px;
+            height: 100px;
+        }
+        
+        .site-header .header-nav .navcon li {
+            float: left;
+            text-align: center;
+            width: 105px;
+            height: 100px;
+            list-style: none;
+        }
+        
+        .site-header .header-nav .navcon li a {
+            text-decoration: none;
+            display: block;
+            width: 105px;
+            height: 42px;
+            color: black;
+        }
+        
+        .site-header .header-nav .navcon li a:hover {
+            color: orangered;
+            text-decoration: solid;
+        }
+        
+        .site-header .header-nav .navcon li ul {
+            width: 1000px;
+            display: none;
+        }
+        
+        .site-header .header-nav .navcon li:hover ul {
+            display: inline;
+        }
+        
+        .site-header .header-search {
+            float: left;
+            height: 40px;
+            width: 400px;
+            display: flex;
+        }
+        
+        .site-header .header-search .search-bar {
+            align-items: center;
+            margin-top: 23px;
+            padding: 15px;
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 200px;
+            cursor: text;
+        }
+        
+        .site-header .header-search .p {
+            width: 40px;
+            float: left;
+        }
+        
+        .home-hero {
+            width: 100%;
+            height: 400px;
+            padding-top: 10px;
+        }
+        
+        .home-hero .home-hero-l {
+            float: left;
+            width: 250px;
+            height: 400px;
+        }
+        
+        .nav-barone {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .nav-barone ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .nav-barone li {
+            display: block;
+            margin-right: 20px;
+            width: 200px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            background-color: darkgray;
+            border-style: solid;
+            border-color: white;
+            border-width: 1px;
+        }
+        
+        .nav-barone a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .nav-barone a:hover {
+            text-decoration: none;
+            color: orangered;
+        }
+        
+        .arrow {
+            width: 10px;
+            height: 40px;
+        }
+        
+        .home-hero .home-hero-m {
+            float: left;
+            width: 1000px;
+            height: 400px;
+            background-color: blueviolet;
+        }
+        
+        .buttom {
+            width: 100%;
+            height: 100px;
+            padding-top: 40px;
+        }
+        
+        .buttom .one {
+            float: left;
+            height: 100px;
+            width: 300px;
+            background-color: aquamarine;
+            margin: 10px;
+        }
+        
+        .buttom .two {
+            float: left;
+            height: 100px;
+            width: 300px;
+            background-color: rgb(80, 47, 8);
+            margin: 10px;
+        }
+        
+        .buttom .three {
+            float: left;
+            height: 100px;
+            width: 300px;
+            background-color: blue;
+            margin: 10px;
+        }
+        
+        .buttom .four {
+            float: left;
+            height: 100px;
+            width: 300px;
+            background-color: brown;
+            margin: 10px;
+        }
