@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>
+        猜数字游戏,范围在1~10之间哦！
+    </h1>
+
+    <input type="number" id="num">
+    <!--输入-->
+    <button onclick="check()">提交</button>
+
+    <script>
+        function getRandom(min, max) { //定义随机数函数
+            return Math.floor(Math.random() * (max - min + 1) + min);
+        }
+
+        var random = getRandom(1, 10); //调用这个函数，生成一个随机数
+
+        function check() {
+            var num = document.getElementById('num').value; //将输入结果放到函数里
+            if (num > random) {
+                alert('你猜大了');
+            } else if (num < random) {
+                alert('你猜小了')
+            } else {
+                alert('恭喜你，猜对了🤩🤩');
+            }
+        }
+    </script>
+
+</body>
+
+</html>
